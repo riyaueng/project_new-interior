@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  max-width: 100vw;
+}
+
+@font-face {
+  font-family: "NixieOne-Regular";
+  src: url(../font/NixieOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "AlegreyaSC-Medium";
+  src: url(../font/AlegreyaSC-Medium.ttf);
+}
+
+@font-face {
+  font-family: "AlegreyaSans-Medium";
+  src: url(../font/AlegreyaSans-Medium.ttf);
+}
+
+h1 {
+  font-family: "NixieOne-Regular", "serif";
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-family: "AlegreyaSans-Medium", "sans-serif";
+  font-size: 2.1rem;
+  letter-spacing: 0.02rem;
+}
+
+h3 {
+  font-family: "AlegreyaSans-Medium", "sans-serif";
+  font-size: 1.8rem;
+  letter-spacing: 0.02rem;
+}
+
+h2,
+h3 {
+  color: #3a4f52;
+}
+
+p {
+  font-family: "Helvetica Neue", "sans-serif";
+  font-size: 0.88rem;
+  color: #6a6a6a;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* * ------------- Header ------------- */
+
+header {
+  background: url(../img/bg_intro.png) no-repeat center/cover;
+  width: 100vw;
+  height: 80vh;
+}
+
+/* ------ Navigation ----- */
+
+header a {
+  font-family: "AlegreyaSC-Medium", "serif";
+  font-size: 2.2rem;
+  color: white;
+}
+
+.nav_burger {
+  top: 2rem;
+  right: 1.8rem;
+}
+
+.burger {
+  background: white;
+  height: 0.3rem;
+  width: 1.8rem;
+  margin: 0.3rem;
+  border-radius: 0.1rem;
+}
+
+.div_navibar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6.25rem;
+  padding: 0 1.8rem;
+  position: sticky;
+}
+
+/* ------ Section Hero ----- */
+
+.section_hero {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 20vh;
+}
+
+.section_hero p {
+  color: white;
+  text-shadow: 0rem 0rem 1rem #524a3a;
+}
+
+/* * ------------- Sections ------------- */
+
+.section_articles {
+  background-color: #f1f0f0;
+  padding-bottom: 1.8rem;
+}
+
+.btn_viewAll {
+  font-family: "Helvetica";
+  font-size: 1rem;
+  color: #3a4f52;
+  border: 1px solid #3a4f52;
+  padding: 0.4rem 0.6rem;
+}
+
+.btn_styles {
+  font-family: "Helvetica Neue", "sans-serif";
+  color: white;
+  border: 1px solid white;
+  padding: 0.6rem 1.2rem;
+}
+
+.div_einleitung_artcl,
+.div_einleitung_center {
+  padding: 1.2rem 1.2rem 2rem 1.2rem;
+}
+
+.div_einleitung_center h2,
+.div_einleitung_center p {
+  color: white;
+  text-align: center;
+}
+
+.wrapper_h2Btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.div_einleitung_artcl h2,
+.div_einleitung_center h2 {
+  margin-bottom: 1rem;
+}
+
+/* ------ Section Work-Gallery ----- */
+
+.div_gallery {
+  padding: 0 1.2rem;
+  width: 100vw;
+}
+
+.gallery_wrapper {
+  margin-bottom: 1.8rem;
+  position: relative;
+}
+
+.gallery_wrapper img {
+  width: 100%;
+  height: 12.8rem;
+  object-fit: cover;
+}
+
+.gallery_btn {
+  width: 100%;
+  height: 12.8rem;
+  background-color: rgba(2, 56, 58, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -51%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ------ Section Services ----- */
+
+.section_service {
+  background: url(../img/bg_services.png) no-repeat center/cover;
+  background-attachment: fixed;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.div_bgTransparent {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-bottom: 2.8rem;
+}
+
+.div_servicesBoxen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicesBox {
+  width: 70vw;
+  margin-bottom: 2.8rem;
+}
+
+.servicesBox:last-of-type {
+  margin-bottom: 0;
+}
+
+.servicesBox h3,
+.servicesBox p {
+  color: white;
+}
+
+.servicesBox h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+/* ------ Section Blog ----- */
+
+.div_blogArticles {
+  padding: 0 1.2rem;
+  width: 100vw;
+}
+
+.articleBox img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog_text {
+  margin: 1.2rem 0 2rem;
+}
+
+.blog_text h3,
+.blog_text p,
+.date {
+  margin-bottom: 1rem;
+}
+
+.date {
+  font-family: "Helvetica Neue", "sans-serif";
+  font-style: italic;
+}
+
+.blog_text a {
+  font-family: "Helvetica Neue", "sans-serif";
+  color: #4da7ca;
+}
+
+/* ------ Section Quote ----- */
+
+.section_quote {
+  background: url(../img/bg_quote.png) no-repeat center/cover;
+  background-attachment: fixed;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.bigQuote {
+  font-size: 2.2rem;
+  color: white;
+  text-align: center;
+  padding: 2rem 1.2rem;
+}
+
+/* ------ Section Testimonials ----- */
+
+.section_testimonials {
+  padding: 0 1.2rem;
+}
+
+.section_testimonials h2 {
+  color: #3a4f52;
+}
+
+.section_testimonials p {
+  color: #6a6a6a;
+}
+
+.div_testimonialsBoxen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.div_testimonialsBoxen img {
+  width: 50vw;
+  margin-bottom: 1.2rem;
+}
+
+.testimonialsBox {
+  margin-bottom: 3rem;
+}
+
+.testimonialsBox p:first-of-type {
+  margin-bottom: 1.2rem;
+}
+
+.testimonial_name p:first-of-type {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+/* ------ Section Contact ----- */
+
+.section_contact {
+  background: url(../img/bg_contact.png) no-repeat center/cover;
+  padding: 4rem 0;
+  text-align: center;
+}
