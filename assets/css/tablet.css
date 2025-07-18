@@ -1,0 +1,137 @@
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+    letter-spacing: 0.02rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    letter-spacing: 0.02rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  /* ? ----------------------- Header ------------------------ */
+
+  header {
+    height: 50vh;
+  }
+
+  /* * -------------- Section Hero --------------- */
+
+  .section_hero {
+    top: 10vh;
+  }
+
+  .section_hero p {
+    font-size: 1.4rem;
+  }
+  /* ? ------------------- Main Sections -------------------- */
+
+  .section_articles {
+    background-color: #f1f0f0;
+    padding-bottom: 3.6rem;
+  }
+
+  .btn_viewAll {
+    font-family: "Helvetica";
+    font-size: 1.1rem;
+    color: #3a4f52;
+    border: 1px solid #3a4f52;
+    padding: 0.8rem 1.4rem;
+  }
+
+  .btn_white {
+    font-family: "Helvetica Neue", "sans-serif";
+    color: white;
+    border: 1px solid white;
+    padding: 0.8rem 1.4rem;
+  }
+
+  .div_einleitung_artcl,
+  .div_einleitung_center {
+    padding: 1.5rem 1.5rem 2.4rem;
+  }
+
+  /* * -------------- Section Work-Gallery --------------- */
+
+  .div_gallery {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+  }
+
+  .gallery_wrapper img {
+    width: 29vw;
+    height: 18vh;
+    object-fit: cover;
+  }
+
+  .gallery_btn {
+    display: none;
+  }
+
+  .gallery_btn {
+    width: 29vw;
+    height: 18vh;
+    position: absolute;
+    top: 24%;
+    left: 24%;
+    transform: translate(-24%, -25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* * -------------- Section Service --------------- */
+
+  .div_bgTransparent {
+    margin: 0 1.5rem;
+  }
+
+  /* * -------------- Section Blog --------------- */
+
+  .div_blogArticles {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+  }
+
+  .articleBox {
+    width: 32%;
+  }
+
+  /* * -------------- Section Testimonials --------------- */
+
+  .section_testimonials {
+    padding: 0 1.5rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .div_testimonialsBoxen img {
+    width: 28vw;
+    margin-bottom: 1.2rem;
+  }
+
+  /* * -------------- Section Contacts --------------- */
+
+  #name,
+  #email,
+  #message {
+    width: 60vw;
+  }
+}
