@@ -21,13 +21,13 @@
   /* ? ----------------------- Header ------------------------ */
 
   header {
-    height: 50vh;
+    height: 36rem;
   }
 
   /* * -------------- Section Hero --------------- */
 
   .section_hero {
-    top: 10vh;
+    top: 8.5rem;
   }
 
   .section_hero p {
@@ -36,7 +36,6 @@
   /* ? ------------------- Main Sections -------------------- */
 
   .section_articles {
-    background-color: #f1f0f0;
     padding-bottom: 3.6rem;
   }
 
@@ -60,6 +59,10 @@
     padding: 1.5rem 1.5rem 2.4rem;
   }
 
+  .div_bgTransparent {
+    margin: 0 1.5rem;
+  }
+
   /* * -------------- Section Work-Gallery --------------- */
 
   .div_gallery {
@@ -72,14 +75,14 @@
     gap: 1.5rem;
   }
 
+  .gallery_wrapper {
+    margin-bottom: 0;
+  }
+
   .gallery_wrapper img {
     width: 29vw;
     height: 18vh;
     object-fit: cover;
-  }
-
-  .gallery_btn {
-    display: none;
   }
 
   .gallery_btn {
@@ -92,12 +95,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  /* * -------------- Section Service --------------- */
-
-  .div_bgTransparent {
-    margin: 0 1.5rem;
   }
 
   /* * -------------- Section Blog --------------- */
@@ -118,7 +115,7 @@
   /* * -------------- Section Testimonials --------------- */
 
   .section_testimonials {
-    padding: 0 1.5rem;
+    padding: 0 2.5rem;
     margin-bottom: 2.4rem;
   }
 
