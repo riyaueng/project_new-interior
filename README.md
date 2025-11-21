@@ -4,8 +4,7 @@ Eine responsive Startseite für eine Interior Design Website mit Showcases, Blog
 
 <img width="1446" height="813" alt="new_interior" src="https://github.com/user-attachments/assets/711ac8ba-9be8-47fa-837d-9285a28c8fdf" />
 
-![new_interior_scrolling](https://github.com/user-attachments/assets/c3a79c89-5abb-478b-9135-334aff268557)
-
+![new_interior_scrolling](https://github.com/user-attachments/assets/66fbd8e8-0497-45fc-bea1-628c7aa6edb5)
 
 ---
 
